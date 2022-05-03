@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                                
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student feedback system</title>
+    <link rel="stylesheet" href="setStyle.css">
+    <script src="./setjavascript.js"></script>
+
+</head>
+<body>
+      <h1 style="color: bisque;text-align: center;"> Student feedback system</h1> 
+      <form name="form" action="" method="get">
+       <div id="1"  style="display: block;">       <br><br>
+          Q1. Teacher comes to the class in time   <br><br><br>
+          <input type="text" style="display: none;"  name="answer1" id="1a" value="">   
+          <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+          <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+          <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+          <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+          <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+       </div>
+
+       
+     <div id="2" >  <br><br>
+        Q2. Teacher comes well prepared in the subject  <br><br><br>
+        <input type="text"  id="2a" value="" name="answer2" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+     
+     <div id="3" >  <br><br>
+        Q3. Aims/Objectives of the lessons are made clear <br<br><br>
+        <input type="text"  id="3a" name="answer3" value="" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)"> 
+     </div>
+
+
+
+     <div id="4" > <br><br>
+        Q4. The lessons is organised and presented clearly <br><br><br>
+        <input type="text"  id="4a" value="" name="answer4" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="5" > <br><br>
+        Q5. Teacher plans and prepares course materials and additional informations <br><br><br>
+        <input type="text"  id="5a" value="" name="answer5" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="6" >  <br><br>
+        Q6. Teacher speaks clearly and Audibly <br><br><br>
+        <input type="text"  id="6a" value="" name="answer6" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+       
+
+     <div id="7" >  <br><br>
+        Q7. Teacher writes and draws legibly <br><br><br>
+        <input type="text"  id="7a" value="" name="answer7" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="8" >  <br><br>
+        Q8. Teacher provides examples of concepts / principles / Explanations are clear and effective <br><br><br>
+        <input type="text"  id="8a" value="" name="answer8" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="9" >  <br><br>
+        Q9. Teacher's pace and level of instructions are suited to the needs of the students  <br><br><br>
+        <input type="text"  id="9a" value="" name="answer9" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="10" >   <br><br>
+        Q10. Teacher offers assistance and counselling to the needy students <br><br><br>
+        <input type="text"  id="10a" value="" name="answer10" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="11" >   <br><br>
+        Q11. Teacher asks Question to promote interaction and reflective thinking  <br><br><br>
+        <input type="text"  id="11a" value="" name="answer11" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="12" >  <br><br>
+        Q12. Teacher encourages questioning/ raising doubts by students and answer them well <br><br><br>
+        <input type="text"  id="12a" value="" name="answer12" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="13" >  <br><br>
+        Q13. Teacher ensures learner activity and problems solving ability in the class <br><br><br>
+        <input type="text"  id="13a" value="" name="answer13" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="14" >   <br><br>
+        Q14. Teacher encourages, complements and praises originality and creativity displayed by the students  <br><br><br>
+        <input type="text"  id="14a" value="" name="answer14" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="15" > <br><br>
+        Q15. Teacher gives interesting assignments and that motivate students to seek knowledge and sharpen skills <br><br><br>
+        <input type="text"  id="15a" value="" name="answer15" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="16" > <br><br>
+        Q16. Teacher enhances classes regularly and maintains discipline  <br><br><br>
+        <input type="text"  id="16a" value="" name="answer16" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="17" > <br><br>
+        Q17. Teacher covers the syllabus completely and at an appropiate pace <br><br><br>
+        <input type="text"  id="17a" value="" name="answer17" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="18" > <br><br>
+        Q18. Teacher holds tests regularly which are helpful to students in building up confidence in their acquistion and application of knowledge <br><br><br>
+        <input type="text"  id="18a" value="" name="answer18" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="19" >  <br><br>
+        Q19. Teacher's marking of answer scripts is fair and impartial  <br><br><br>
+        <input type="text"  id="19a" value="" name="answer19" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)">  
+     </div>
+
+
+
+     <div id="20" > <br><br>
+        Q20. Teacher is prompt in valuing and returing the answer scripts provising feedback on performance  <br><br><br>
+        <input type="text"  id="20a" value="" name="answer20" style="display: none;">   
+        <input type="button" style="display: block;" value="Excellent" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="VeryGood" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Good" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Satisfactory" onclick="call(this)"> 
+        <input type="button" style="display: block;" value="Poor" onclick="call(this)"> <br><br>
+         
+        <input type="submit" style="color: brown;background-color: darkorange;border: 4px solid salmon;width: 120px;height: 60px;margin: 0px;" ></button>
+     </div>
+    </form>
+
+</body>
+</html>
