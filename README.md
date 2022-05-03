@@ -1,3 +1,3 @@
 # miniproject
 
-<a "href=https://ravindhratgithub.github.io/miniproject/">Live Preview</a>
+<a href="https://ravindhratgithub.github.io/miniproject/">Live Preview</a>
